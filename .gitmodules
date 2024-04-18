@@ -6,4 +6,5 @@
 	url = https://github.com/Cycling74/mock.git
 [submodule "max-sdk-base"]
 	path = max-sdk-base
-	url = https://github.com/Cycling74/max-sdk-base
+	url = https://github.com/synthetic-methods/max-sdk-base
+	branch = c++20
