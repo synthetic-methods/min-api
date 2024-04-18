@@ -44,7 +44,7 @@ add_subdirectory(mock)
 
 target_link_libraries(min-tests mock_kernel)
 
-set_target_properties(min-tests PROPERTIES CXX_STANDARD 17)
+set_target_properties(min-tests PROPERTIES CXX_STANDARD 20)
 set_target_properties(min-tests PROPERTIES CXX_STANDARD_REQUIRED ON)
 
 if (APPLE)
