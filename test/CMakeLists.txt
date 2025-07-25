@@ -8,7 +8,7 @@ set(C74_MIN_API_DIR ${CMAKE_CURRENT_SOURCE_DIR}/..)
 enable_testing()
 
 if (APPLE)
-	set(CMAKE_OSX_DEPLOYMENT_TARGET "10.11")
+	set(CMAKE_OSX_DEPLOYMENT_TARGET "14.00")
 endif ()
 
 project(min-tests)
